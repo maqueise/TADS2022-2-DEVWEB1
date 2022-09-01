@@ -1,9 +1,9 @@
 {
     "recommendations": [
-        "eg2.vscode-npm-script",
         "pkief.material-icon-theme",
         "manasky.lorem-space",
         "antfu.vite",
-        "dracula-theme.theme-dracula"
+        "dracula-theme.theme-dracula",
+        "rangav.vscode-thunder-client"
     ]
 }
