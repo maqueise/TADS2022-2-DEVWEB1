@@ -1,4 +1,4 @@
-import 'picnic'
+import '@picocss/pico'
 import '../css/global.css'
 
 
