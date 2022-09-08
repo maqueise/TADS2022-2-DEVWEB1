@@ -1,7 +1,20 @@
 export default {
     root: 'src',
     build: {
-        outDir: '../dist'
+        outDir: '../dist',
+        rollupOptions: {
+            input: {
+                index: 'src/index.html',
+                domParte01: 'src/dom-parte1.html'
+            },
+            output: {
+                entryFileNames: 'js/[hash][extname]',
+                chunkFileNames: "js/[hash].extname]",
+                assetFileNames: 'css/[hash][extname]',
+
+            }
+
+        }
     }
 }
 
