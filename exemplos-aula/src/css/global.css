@@ -6,3 +6,7 @@
 html,body{
     height: 100vh;
 }
+
+#app > header{
+    padding: 0 50px;
+}

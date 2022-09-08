@@ -1,0 +1,25 @@
+header.topo{
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10vw;
+    height: 10vh;
+}
+nav.menu{
+    display: flex;
+    gap: 20px;
+}
+main.container{
+    min-height: 80vh;
+}
+footer.rodape{
+    background-color: var(--primary);
+    color: var(--primary-inverse);
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
