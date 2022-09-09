@@ -23,3 +23,36 @@ footer.rodape{
     justify-content: center;
     padding: 0;
 }
+.galeria{
+    display: flex;
+    gap: 10px;
+}
+.galeria img{
+    object-fit: cover;
+    aspect-ratio: 2/2;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 5px;
+    width: 25vw;
+}
+.lista li{
+    padding: 5px;
+    background-color: var(--primary);
+    color: var(--primary-inverse);
+    text-align: center;
+}
+form{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+}
+form .btn-add{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

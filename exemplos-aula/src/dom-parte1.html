@@ -19,11 +19,53 @@
     </nav>
   </header>
   <main class="container">
-    <h3>conteúdo</h3>
+    <section>
+      <h2>Lista de Disciplinas</h2>
+      <form class="grid" action="#">
+        <label>
+          <input type="text" placeholder="Disciplina">
+        </label>
+        <button class="btn-add">Adicionar</button>
+      </form>
+
+      <ul class="lista">
+        <li>Desenvolvimento Web 1</li>
+        <li>Linguagem de Programação 1</li>
+        <li>Paradigma Orientado a Objetos</li>
+      </ul>
+    </section>
+    <h2>Estudantes</h2>
+    <form class="grid">
+      <label> Campus:
+        <select id="curso">
+          <option>Tecnologia em Análise e Desenvolvimento de Sistemas</option>
+          <option>Agronomia</option>
+          <option>Técnico em Informática para Internet</option>
+          <option>Técnico em Agricultura</option>
+        </select>
+      </label>
+      <label> Campus
+        <select id="campus">
+          <option>Naviraí</option>
+          <option>Dourados</option>
+          <option>Nova Andradina</option>
+          <option>Três Lagoas</option>
+        </select>
+      </label>
+    </form>
+    <section class="galeria">
+      <img src="https://api.lorem.space/image/face?w=200&hash=py56311a" />
+      <img src="https://api.lorem.space/image/face?w=200&hash=32pfp73x" />
+      <img src="https://api.lorem.space/image/face?w=200&hash=vismtj3e" />
+      <img src="https://api.lorem.space/image/face?w=200&hash=rykdpoxe" />
+      <img src="https://api.lorem.space/image/face?w=200&hash=tkxxpuzs" />
+    </section>
+
   </main>
   <footer class="rodape">
     rodapé
   </footer>
   <script type="module" src="js/dom-parte1.js"></script>
 </body>
+
 </html>
