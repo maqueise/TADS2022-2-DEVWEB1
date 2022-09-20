@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "pkief.material-icon-theme",
+        "manasky.lorem-space",
+        "antfu.vite",
+        "dracula-theme.theme-dracula",
+        "rangav.vscode-thunder-client"
+    ]
+}
