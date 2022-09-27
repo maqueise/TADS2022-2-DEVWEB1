@@ -21,15 +21,15 @@
   <main class="container">
     <section>
       <h2>Lista de Disciplinas</h2>
-      <form class="grid" action="#">
+      <form class="grid" id="form-disciplina">
         <label>
-          <input id="disciplina" type="text" placeholder="Disciplina">
+          <input name="disciplina" type="text" placeholder="Disciplina">
         </label>
         <button class="btn-add">Adicionar</button>
       </form>
 
       <ul class="lista">
-        <li>Desenvolvimento Web 1</li>
+        <li>Desenvolvimento Web 1<i class="ph-trash"></i></li>
         <li>Linguagem de Programação 1</li>
         <li>Paradigma Orientado a Objetos</li>
       </ul>
@@ -43,8 +43,7 @@
       </label>
       <label> Curso Superiores:
         <select id="curso">
-          <option>Tecnologia em Análise e Desenvolvimento de Sistemas</option>
-          <option>Agronomia</option>
+          <option disabled selected>Selecione</option>
         </select>
       </label>
 
