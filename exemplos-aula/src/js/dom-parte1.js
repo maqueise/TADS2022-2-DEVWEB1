@@ -3,7 +3,7 @@ import 'phosphor-icons'
 
 import '../css/global.css'
 import '../css/dom-parte1.css'
-// formulário de disciplinas
+// Criando e Adicionando elementos no DOM
 const formDisciplina = document.querySelector("#form-disciplina")
 const btnAdicionar = document.querySelector(".btn-add")
 const lista = document.querySelector(".lista")

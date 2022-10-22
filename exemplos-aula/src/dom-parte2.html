@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <title>App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <a href="./index.html">
+      <h6>Voltar para a pagina inicial</h6>
+    </a>
+    <h1>DOM parte 2:Eventos</h1>
+
+
+    <details>
+      <summary role="button"> <strong>Tópico 1:</strong> Objeto <code>Event</code> e propagação de eventos</summary>
+      <article>
+        <header>
+          <h6>Exemplo 1:</h6>
+          Abra o console do navegador e clique nos retângulos para disparar eventos.
+        </header>
+        <!-- Início: Elementos do Exemplo -->
+        <div id="elemento-pai" class="flex-center">
+          <div id="elemento-filho1" class="flex-center">
+            Filho 1 😊
+          </div>
+          <div id="elemento-filho2" class="flex-center">
+            Filho 2 😊
+          </div>
+          <!-- Fim: Elementos do Exemplo -->
+        </div>
+        <footer>
+          <ul>
+            <li>O elemento filho 1 propaga o evento para o elemento pai</li>
+            <li>O elemento filho 2 não propaga o evento para o elemento pai</li>
+          </ul>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h6>Exemplo 2:</h6>
+          Fábrica de EMOJIS 😊
+        </header>
+        <!-- Início: Elementos do Exemplo -->
+        <form id="fabricaEmojis" class="grid">
+          <select name="emoji">
+            <option selected disabled>Selecione um Emoji</option>
+          </select>
+          <button type="button" name="criarEmoji">Criar Emoji</button>
+        </form>
+        <div id="listaEmojis"></div>
+        <!-- FIM: Elementos do Exemplo -->
+      </article>
+    </details>
+    <details open>
+      <summary role="button"> <strong>Tópico 2: </strong>Evento de Teclado</summary>
+      <article>
+        <header>
+          <h6>Exemplo 1:</h6>
+        </header>
+        <!-- Início: Elementos do Exemplo -->
+        <p>Pressione uma tecla para exibir informações do Evento</p>
+        <div id="infoTeclas">
+
+        </div>
+      </article>
+      <article>
+        <header>
+          <h6>Exemplo 2:</h6>
+        </header>
+        <!-- Início: Elementos do Exemplo -->
+
+        <!-- Início: Elementos do Exemplo -->
+      </article>
+    </details>
+
+
+
+
+
+
+  </div>
+  <script type="module" src="js/dom-parte2.js"></script>
+</body>
+
+</html>

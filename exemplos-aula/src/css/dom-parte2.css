@@ -1,0 +1,45 @@
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+#elemento-pai{
+    width: 500px;
+    height: 250px;
+    background-color: #183387;
+    padding: 10px;
+}
+#elemento-filho1{
+    background-color: #861883;
+    width: 200px;
+    height: 150px;
+    color: white;
+}
+#elemento-filho2{
+    background-color: #2082a9;
+    width: 200px;
+    height: 150px;
+    color: white;
+}
+
+#listaEmojis{
+    display: flex;
+    overflow-y: scroll;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 200px;
+    max-height: 200px;
+    font-size: 64px;
+}
+.emoji{
+    cursor: pointer;
+}
+
+#infoTeclas {
+    padding: 20px;
+    border: 1px solid;
+    height: 100px;
+    width: 300px;
+}
